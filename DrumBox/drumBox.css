@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+#container_keys {
+    height: 100vh;
+    background: url(https://i.imgur.com/b9r5sEL.jpg) center bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.case {
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 75px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(51, 60, 59, 0.6);
+    transition: all .07s;
+}
+
+.letter {
+    color: #fff;
+    padding: 5px;
+}
+
+.soundName {
+    color: #ffc600;
+    font-size: 15px;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
